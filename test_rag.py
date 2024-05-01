@@ -9,17 +9,17 @@ Actual Response: {actual_response}
 """
 
 
-def test_monopoly_rules():
+def test_binomial_distribution_question():
     assert query_and_validate(
-        question="How much total money does a player start with in Monopoly? (Answer with the number only)",
-        expected_response="$1500",
+        question="The constants n and p are called the what of the binomial distribtution?",
+        expected_response="The constants n and p are called the parameters of the binomial distribution",
     )
 
 
-def test_ticket_to_ride_rules():
+def test_unit_vector_question():
     assert query_and_validate(
-        question="How many points does the longest continuous train get in Ticket to Ride? (Answer with the number only)",
-        expected_response="10 points",
+        question="What is the definition of a unit vector?",
+        expected_response="A unit vector u is a vector whose length equals one",
     )
 
 

@@ -45,5 +45,7 @@ def query_and_validate(question: str, expected_response: str):
         return False
     else:
         raise ValueError(
-            f"Invalid evaluation result. Cannot determine if 'true' or 'false'."
+            "Invalid evaluation result. Cannot determine if 'true' or 'false'."
         )
+
+# python -m pytest -s to run tests
